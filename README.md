@@ -132,14 +132,14 @@
 > 모델 서버는 FastAPI를 이용하여 RunPod 추론 서버를 구축하였습니다. 백엔드는 Django Framework를 기반으로 Gunicorn을 앱 서버로 사용하였으며, STT/TTS 연동 과정에서 NGINX를 대신해 Ngrok을 웹 서버로 활용하였습니다. 최종적으로 AWS를 이용하여 배포하였습니다.
 > 
 
-![image.png](image.png)
+![image.png](./assets/images/image.png)
 
 ## 5-2. ERD
 
 > 사용자와 채팅목록은 사용자 식별 번호를 PK로 하고, 채팅 식별 번호를 FK로 하는 비식별 관계로 설정하였고, 채팅목록과 상세 채팅은 사용자 식별 번호를 PK로, 메시지 식별 번호와 채팅 식별 번호를 복합키로 적용하는 식별 관계로 설정하였습니다.
 > 
 
-![member.png](member.png)
+![member.png](./assets/images/member.png)
 
 # 6. 요구사항 정의서
 
@@ -147,20 +147,20 @@
 > 
 - 요구사항 정의서
     
-    ![요구사항명세서_pages-to-jpg-0001.jpg](%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C_pages-to-jpg-0001.jpg)
+    ![요구사항명세서_pages-to-jpg-0001.jpg](./assets/images/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C_pages-to-jpg-0001.jpg)
     
     [요구사항명세서.pdf](%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
     
 
 # 7. 화면설계서
 
-![image.png](image%201.png)
+![image.png](./assets/images/image%201.png)
 
-![image.png](image%202.png)
+![image.png](./assets/images/image%202.png)
 
 # 8. WBS
 
-![image.png](image%203.png)
+![image.png](./assets/images/image%203.png)
 
 # 9. 테스트 계획 및 결과 보고서
 
@@ -168,19 +168,19 @@
 > 
 - 테스트 개요 및 계획
     
-    ![image.png](image%204.png)
+    ![image.png](./assets/images/image%204.png)
     
 - 테스트 수행
     
-    ![image.png](image%205.png)
+    ![image.png](./assets/images/image%205.png)
     
 - 테스트
     
-    ![4차 단위 프로젝트(문서) - Google Sheets_page-0001.jpg](4%EC%B0%A8_%EB%8B%A8%EC%9C%84_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EB%AC%B8%EC%84%9C)_-_Google_Sheets_page-0001.jpg)
+    ![4차 단위 프로젝트(문서) - Google Sheets_page-0001.jpg](./assets/images/4%EC%B0%A8_%EB%8B%A8%EC%9C%84_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EB%AC%B8%EC%84%9C)_-_Google_Sheets_page-0001.jpg)
     
 - 결과
     
-    ![image.png](image%206.png)
+    ![image.png](./assets/images/image%206.png)
     
 
 [테스트 계획 및 결과 보고서.pdf](%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B3%84%ED%9A%8D_%EB%B0%8F_%EA%B2%B0%EA%B3%BC_%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
