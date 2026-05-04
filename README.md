@@ -114,16 +114,17 @@
 
 # 4. 모델 개선
 
-![모델 아키텍처.png](./assets/images/모델_아키텍처.png)
+## 4-1. 개선 전
 
-> 
-> 
-> 
+<img width="700" height="900" alt="개선전" src="https://github.com/user-attachments/assets/8388403c-c143-4331-89fe-51f7bf5cffb9" />
+
 > 기존 플로우차트는 GPT-4o-mini 모델이 에이전트 역할을 하여 규정 문서 기반 RAG와 경기 기록 조회 중 하나를 선택하는 구조였습니다. 문서가 영어로 되어 있어 한국어 번역 후 Reranker Model을 거쳐 sLM으로 답변을 생성하였으나, 이 구조가 비효율적이라고 판단하여 개선하였습니다.
-> 
 
-> 기존 플로우 차트 대비 답변 생성 모델은 sLM에서 GPT-4.1-nano로 교체하였으며, 비용에 비해 유사하거나 그보다 더 좋은 품질의 답변을 얻을 수 있었습니다. 또한 벡터 기반 유사도 검색만 사용할 경우 핵심 키워드 검색이 미흡한 문제가 있어, 키워드 검색과 벡터 검색을 결합한 Hybrid Search를 도입하였습니다.
-> 
+## 4-2. 개선 후
+
+<img width="700" height="900" alt="개선후" src="https://github.com/user-attachments/assets/380385a7-e38a-48e3-85a4-49c8f712a2ad" />
+
+> 답변 생성 모델을 sLM에서 GPT-4.1-nano로 교체하였으며, 비용에 비해 유사하거나 그보다 더 좋은 품질의 답변을 얻을 수 있었습니다. 또한 벡터 기반 유사도 검색만 사용할 경우 핵심 키워드 검색이 미흡한 문제가 있어, 키워드 검색과 벡터 검색을 결합한 Hybrid Search를 도입하였습니다. 
 
 # 5. ERD 및 시스템 구성도
 
@@ -132,7 +133,8 @@
 > 모델 서버는 FastAPI를 이용하여 RunPod 추론 서버를 구축하였습니다. 백엔드는 Django Framework를 기반으로 Gunicorn을 앱 서버로 사용하였으며, STT/TTS 연동 과정에서 NGINX를 대신해 Ngrok을 웹 서버로 활용하였습니다. 최종적으로 AWS를 이용하여 배포하였습니다.
 > 
 
-![image.png](./assets/images/image.png)
+<img width="1341" height="671" alt="image" src="https://github.com/user-attachments/assets/66f2cb94-76cc-44c3-9d5c-081716f8f679" />
+
 
 ## 5-2. ERD
 
@@ -148,8 +150,8 @@
 - 요구사항 정의서
     
     ![요구사항명세서_pages-to-jpg-0001.jpg](./assets/images/요구사항명세서_pages-to-jpg-0001.jpg)
-    
-    [요구사항명세서.pdf](%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
+    [요구사항명세서.pdf](https://github.com/user-attachments/files/27328974/default.pdf)
+
     
 
 # 7. 화면설계서
@@ -169,21 +171,24 @@
 - 테스트 개요 및 계획
     
     ![image.png](./assets/images/image%204.png)
-    
+
+> 
 - 테스트 수행
     
     ![image.png](./assets/images/image%205.png)
-    
+
+> 
 - 테스트
     
-    ![4차 단위 프로젝트(문서) - Google Sheets_page-0001.jpg](./assets/images/4%EC%B0%A8_%EB%8B%A8%EC%9C%84_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EB%AC%B8%EC%84%9C)_-_Google_Sheets_page-0001.jpg)
-    
+
+> 
 - 결과
     
     ![image.png](./assets/images/image%206.png)
     
 
-[테스트 계획 및 결과 보고서.pdf](%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B3%84%ED%9A%8D_%EB%B0%8F_%EA%B2%B0%EA%B3%BC_%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+[테스트 계획 및 결과 보고서.pdf](https://github.com/user-attachments/files/27328978/default.pdf)
+
 
 # 10. 수행결과(테스트/시연 페이지)
 
