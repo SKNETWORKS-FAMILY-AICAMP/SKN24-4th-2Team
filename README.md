@@ -114,7 +114,7 @@
 
 # 4. 모델 개선
 
-![모델 아키텍처.png](%EB%AA%A8%EB%8D%B8_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png)
+![모델 아키텍처.png](./assets/images/모델_아키텍처.png)
 
 > 
 > 
@@ -147,7 +147,7 @@
 > 
 - 요구사항 정의서
     
-    ![요구사항명세서_pages-to-jpg-0001.jpg](./assets/images/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C_pages-to-jpg-0001.jpg)
+    ![요구사항명세서_pages-to-jpg-0001.jpg](./assets/images/요구사항명세서_pages-to-jpg-0001.jpg)
     
     [요구사항명세서.pdf](%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
     
