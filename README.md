@@ -78,6 +78,26 @@
 > 
 > 이에 따라, 입문자도 쉽고 빠르게 F1 정보를 이해할 수 있도록 돕는 챗봇의 필요성을 느껴 본 프로젝트를 기획하게 되었습니다.
 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/aa967686-65d9-467e-b108-83623113669e" width="400" alt="image1" /><br>
+      <sub>출처: <a href="https://v.daum.net/v/HQc9YRwaEp">gpkorea 기사</a></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/aef35137-807a-4161-a7e8-7f99e2243cd8" width="700" alt="image3" /><br>
+      <sub>출처: <a href="https://digitalchosun.dizzo.com/site/data/html_dir/2026/03/06/2026030680090.html"> 디지틀조선일보 기사</a></sub>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0902f0e4-9a85-4c1f-8b0d-7ddb61e1639b" width="600" alt="image2" /><br>
+  <sub>출처: <a href="https://www.chosun.com/sports/sports_general/2026/03/05/INS5ESTOJBEW3CJ3EC3RFBRPXY/">조선일보 기사</a></sub>
+</p>
+
 # 3. 기술 스택
 
 ### 🛠️ Backend
@@ -120,17 +140,26 @@
 
 # 4. 모델 개선
 
-## 4-1. 개선 전
-
-<img width="700" height="900" alt="개선전" src="https://github.com/user-attachments/assets/8388403c-c143-4331-89fe-51f7bf5cffb9" />
-
-> 기존 플로우차트는 GPT-4o-mini 모델이 에이전트 역할을 하여 규정 문서 기반 RAG와 경기 기록 조회 중 하나를 선택하는 구조였습니다. 문서가 영어로 되어 있어 한국어 번역 후 Reranker Model을 거쳐 sLM으로 답변을 생성하였으나, 이 구조가 비효율적이라고 판단하여 개선하였습니다.
-
-## 4-2. 개선 후
-
-<img width="700" height="900" alt="개선후" src="https://github.com/user-attachments/assets/380385a7-e38a-48e3-85a4-49c8f712a2ad" />
-
-> 답변 생성 모델을 sLM에서 GPT-4.1-nano로 교체하였으며, 비용에 비해 유사하거나 그보다 더 좋은 품질의 답변을 얻을 수 있었습니다. 또한 벡터 기반 유사도 검색만 사용할 경우 핵심 키워드 검색이 미흡한 문제가 있어, 키워드 검색과 벡터 검색을 결합한 Hybrid Search를 도입하였습니다. 
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h2>개선 전</h2>
+      <img width="100%" alt="개선전" src="https://github.com/user-attachments/assets/8388403c-c143-4331-89fe-51f7bf5cffb9" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h2>개선 후</h2>
+      <img width="100%" alt="개선후" src="https://github.com/user-attachments/assets/380385a7-e38a-48e3-85a4-49c8f712a2ad" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      기존 플로우차트는 GPT-4o-mini 모델이 에이전트 역할을 하여 규정 문서 기반 RAG와 경기 기록 조회 중 하나를 선택하는 구조였습니다. 문서가 영어로 되어 있어 한국어 번역 후 Reranker Model을 거쳐 sLM으로 답변을 생성하였으나, 이 구조가 비효율적이라고 판단하여 개선하였습니다.
+    </td>
+    <td width="50%" valign="top">
+      답변 생성 모델을 sLM에서 GPT-4.1-nano로 교체하였으며, 비용에 비해 유사하거나 그보다 더 좋은 품질의 답변을 얻을 수 있었습니다. 또한 벡터 기반 유사도 검색만 사용할 경우 핵심 키워드 검색이 미흡한 문제가 있어, 키워드 검색과 벡터 검색을 결합한 Hybrid Search를 도입하였습니다.
+    </td>
+  </tr>
+</table>
 
 # 5. ERD 및 시스템 구성도
 
