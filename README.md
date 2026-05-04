@@ -136,7 +136,7 @@
 
 ## 5-1. 시스템 구성도
 
-> 모델 서버는 FastAPI를 이용하여 RunPod 추론 서버를 구축하였습니다. 백엔드는 Django Framework를 기반으로 Gunicorn을 앱 서버로 사용하였으며, STT/TTS 연동 과정에서 NGINX를 대신해 Ngrok을 웹 서버로 활용하였습니다. 최종적으로 AWS를 이용하여 배포하였습니다.
+> 모델 서버는 FastAPI를 이용하여 RunPod 추론 서버를 구축하였습니다. 백엔드는 Django Framework를 기반으로 Gunicorn을 앱 서버로 사용하였으며, STT/TTS 연동 과정에서 NGINX를 대신해 Ngrok을 웹 서버로 활용하였습니다. Django 앱을 Docker image로 만들어서 Dockerhub에 올리고 EC2에서 Pull을 시행했고, 최종적으로 AWS를 이용하여 배포하였습니다.
 > 
 
 <img width="1341" height="671" alt="image" src="https://github.com/user-attachments/assets/66f2cb94-76cc-44c3-9d5c-081716f8f679" />
