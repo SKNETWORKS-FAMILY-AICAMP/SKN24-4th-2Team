@@ -185,7 +185,6 @@
 - 요구사항 정의서
     
     ![요구사항명세서_pages-to-jpg-0001.jpg](./assets/images/요구사항명세서_pages-to-jpg-0001.jpg)
-    [요구사항명세서.pdf](https://github.com/user-attachments/files/27328974/default.pdf)
 
     
 
@@ -234,7 +233,6 @@
 
 </details>
 
-[테스트 계획 및 결과 보고서.pdf](https://github.com/user-attachments/files/27328978/default.pdf)
 
 
 # 10. 수행결과(테스트/시연 페이지)
