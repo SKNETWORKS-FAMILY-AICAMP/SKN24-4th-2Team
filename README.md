@@ -84,33 +84,39 @@
 
 | Category | Stack |
 | --- | --- |
-| Language | Python |
-| Framework | Django |
-| STT / TTS | OpenAI Whisper, gTTS |
-| Deployment | AWS EC2 |
-| DataBase | AWS RDS MySQL |
-| Version Control | Git, GitHub |
+| Language | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+| Framework | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) |
+| STT / TTS | ![Whisper](https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white) ![gTTS](https://img.shields.io/badge/gTTS-4285F4?style=for-the-badge&logo=google&logoColor=white) |
+| Deployment | ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white) |
+| DataBase | ![AWS RDS](https://img.shields.io/badge/AWS%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
 
 ### 🖥️ Frontend
 
 | Category | Stack |
 | --- | --- |
-| Language | JavaScript |
-| Markup / Style | HTML, CSS |
-| UI Design | Figma |
+| Language | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+| Markup / Style | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
 
 ### 🧠 AI / Model Server
 
 | Category | Stack |
 | --- | --- |
-| Server | FastAPI, Runpod |
-| LLM API | OpenAI gpt-4.1-nano |
-| RAG Framework | LangChain |
-| Embedding | intfloat/multilingual-e5-large |
-| Vector DB | ChromaDB |
-| Advanced RAG | Hybrid Search |
-| Library | PyMuPDF, Pydantic |
-| F1 Data API | OpenF1 API, Jolpica API |
+| Server | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Runpod](https://img.shields.io/badge/Runpod-6C47FF?style=for-the-badge&logo=runpod&logoColor=white) |
+| LLM API | ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![OpenAI-gpt-4.1-nano](https://img.shields.io/badge/gpt--4.1--nano-412991?style=for-the-badge&logo=openai&logoColor=white) |
+| RAG Framework | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) |
+| Embedding | ![intfloat/multilingual-e5-large](https://img.shields.io/badge/intfloat%2Fmultilingual--e5--large-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) |
+| Vector DB | ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge) |
+
+
+### ⚙️ Infrastructure & Tools
+
+| Category | Stack |
+| --- | --- |
+| Server | ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white) ![RunPod](https://img.shields.io/badge/RunPod-7C3AED?style=for-the-badge) |
+| Database | ![AWS RDS](https://img.shields.io/badge/AWS_RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white) |
+| Collaboration |![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)|
+| Design | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)|
+
 
 # 4. 모델 개선
 
@@ -207,14 +213,6 @@
 > [https://sniff-tubby-trustful.ngrok-free.dev/](https://sniff-tubby-trustful.ngrok-free.dev/)
 > 
 
-# 11. 기대효과 및 개선점
-
-## 11-1. 기대효과
-
-> F1이 초보인 시청자에게는 복잡하고 어려운 규정을 쉽게 설명해주고, 연 단위로 바뀌는 규정에 대해 빠르게 반영해서 설명해주는 역할을 한
-> 
-
-## 12-2. 개선점
 
 # 11. 한 줄 회고
 
